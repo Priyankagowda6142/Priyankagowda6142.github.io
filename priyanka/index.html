@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+    <div class="logo"><h1>Brand-<span>Company</span></h1></div>
+    <div class="cx">
+        <div class="head">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About-us</a></li>
+                <li><a href="contact.html">Contact-us</a></li>
+                <li><a href="#">Dealers</a></li>   
+            </ul>
+            <ul>
+                <li><a href="#"><i class="fa fa-phone"></i>Call-us: +870 976895-7675</a></li>
+                <li><a href="#"><i class="fa fa-map-marker"></i>Find-store</a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart"></i>My-account</a></li>
+            </ul>
+        </div>
+        <div class="search">
+        <input type="text">
+        <a href="#"><i class="fa fa-search"></i>Search</a>
+        <a href="#">Category<i class="fa fa-angle-down"></i></a>
+        <a href="#">Cart<i class="fa fa-shopping-cart"></i></a>
+        </div>
+    </div>
+</header> 
+<nav>
+    <ul>
+        <li><a href="#"><i class="fa fa-home"></i>Home</a></li> 
+        <li><a href="#"><i class="fa fa-suitcase"></i>Fashion</a></li> 
+        <li><a href="#"><i class="fa fa-plus-circle"></i>Beauty-Health</a></li> 
+        <li><a href="#"><i class="fa fa-tv"></i>Electronics</a></li> 
+        <li><a href="#"><i class="fa fa-plug"></i>Home-appliences</a></li> 
+        <li><a href="#"><i class="fa fa-laptop"></i>Computer</a></li> 
+        </ul>
+</nav>
+<main>
+    <selection class="banner">
+        <div>
+            <h1>50%</h1>
+            <h1>OFF</h1>
+            <h1>Today</h1>
+            <button>Buy-now</button>
+        </div>
+        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="">
+    </selection>
+    <!-- <selection class="item3">
+        <div class="inner-3">
+            <div>
+                <h4>Media=based</h4>
+                <p>Zenbook</p>
+                <button>shop-now</button>
+            </div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSGslgD_3noocr1tnBcxUcrAQCEkIaxidJWYg&usqp=CAU"alt="">
+        </div>
+    <div class="inner-3">
+    <div>
+        <h4>Cloud-based</h4>
+        <p>Surface-based</p>
+        <button>shop-now</button>
+</div>
+<img src="sbook.jpg"alt="">
+    </div>
+<div class="inner-3">
+    <div>
+        <h4>AI-based</h4>
+        <p>macbook</p>
+        <button>shop-now</button>
+    </div>
+    <img src="data:image/png;base64,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" alt="">
+</div>
+    </selection>
+    <selection class="cl">
+        <h1>BEST SELLERS</h1>
+    <selection class="seller">
+        <div class="inner-seller">
+            <img src="https://images.timberland.com/is/image/timberland/A2B2Q050-HERO?$PDP-FULL-IMAGE$" alt="">
+            <div class="inner-left">
+            <div>
+                <p>Goods-items</p>
+                <h5>$50:50</h5>
+                <del>$70:00</del>
+            </div>
+            <button>Add-cart</button>
+            </div>
+        </div> -->
+        <!-- <div class="inner-seller">
+            <img src=phone.jpg"" alt="">
+            <div class="inner-left">
+            <div>
+                <p>Goods-items</p>
+                <h5>$50:50</h5>
+                <del>$70:00</del>
+            </div>
+            <button>Add-cart</button>
+            </div>
+        </div>
+        <div class="inner-seller">
+            <img src="watch.jpg" alt="">
+            <div class="inner-left">
+            <div>
+                <p>Goods-items</p>
+                <h5>$50:50</h5>
+                <del>$70:00</del>
+            </div>
+            <button>Add-cart</button>
+            </div>
+        </div>
+        <div class="inner-seller">
+            <img src="dove.jpg" alt="">
+            <div class="inner-left">
+            <div>
+                <p>Goods-items</p>
+                <h5>$50:50</h5>
+                <del>$70:00</del>
+            </div>
+            <button>Add-cart</button>
+            </div>
+        </div>
+    </selection>
+    <selection class="large">
+        <div class="inner-large">
+            <img src="pad.jpg" alt="">
+            <div>
+                <h1>Ipad Pro 2020</h1>
+                <h1>Up to 10% OFF</h1>
+                <h1>$1000:00</h1>1
+            </div>
+        </div>
+        <div class="inner-large">
+            <img src="sam.jpg" alt="">
+            <div>
+                <h1>Samsung S20</h1>
+                <h1>Pre order available</h1>
+                <h1>$1000:00</h1>1
+            </div>
+        </div>
+        <div class="inner-large">
+            <img src="surface.jpg" alt="">
+            <div>
+                <h1>MicrosoftSurface Pro</h1>
+                <h1>Strong performance</h1>
+                <h1>$1000:00</h1>1
+            </div>
+        </div>
+    </selection>
+    <selection class="cl">
+        <h1>LATEST ARRIVAL</h1>
+    <selection class="seller">
+        <div class="inner-seller">
+            <img src="gown.jpg" alt="">
+            <div class="inner-left">
+            <div>
+                <p>Goods-items</p>
+                <h5>$50:50</h5>
+                <del>$70:00</del>
+            </div>
+            <button>Add-cart</button>
+            </div>
+        </div>
+        <div class="inner-seller">
+            <img src="plate.jpg" alt="">
+            <div class="inner-left">
+            <div>
+                <p>Goods-items</p>
+                <h5>$50:50</h5>
+                <del>$70:00</del>
+            </div>
+            <button>Add-cart</button>
+            </div>
+        </div>
+        <div class="inner-seller">
+            <img src="tv.jpg" alt="">
+            <div class="inner-left">
+            <div>
+                <p>Goods-items</p>
+                <h5>$50:50</h5>
+                <del>$70:00</del>
+            </div>
+            <button>Add-cart</button>
+            </div>
+        </div>
+        <div class="inner-seller">
+            <img src="jak.jpg" alt="">
+            <div class="inner-left">
+            <div>
+                <p>Goods-items</p>
+                <h5>$50:50</h5>
+                <del>$70:00</del>
+            </div>
+            <button>Add-cart</button>
+            </div>
+        </div>
+    </selection>
+</selection>
+</main> 
+<footer>
+    <div>
+        <p>SUBSCRIPTION</p>
+        <input type="text" placeholder="Your email here">
+        <button>SUBSCRIBE</button>
+        <p>Connect with us</p>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-pinterest"></i>
+    </div>
+    <div>
+        <p>HOW TO BUY</p>
+        <ul>
+            <li><a href="#"> Create an account</a></li>
+            <li><a href="#"> Delivery option</a></li>
+            <li><a href="#"> Making payments</a></li>
+            <li><a href="#"> Buyer protection</a></li>
+            <li><a href="#"> New user guides</a></li>
+        </ul>
+    </div>
+    <div>
+        <p>CUSTOMER SERVICES</p>
+        <ul>
+            <li><a href="#"> Online services</a></li>
+            <li><a href="#"> Secure</a></li>
+            <li><a href="#"> Responsible</a></li>
+            <li><a href="#"> Refund</a></li>
+            <li><a href="#"> nes -us</a></li>
+        </ul>
+    </div>
+    <div>
+        <p>CONTACT US</p>
+        <ul>
+            <li><a href="#"><i class="fa fa-map-maker"></i> 9786-address city states</a></li>
+            <li><a href="#"><i class="fa-phone"></i> +76879 -765488</a></li>
+            <li><a href="#"><i class="fa-envelope"></i> contact@gmail.com</a></li>
+            </ul>
+    </div>
+</footer>   -->
+</body>
+</html>
+
+    
